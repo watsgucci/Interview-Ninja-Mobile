@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Long+Cang&family=Neucha&family=Permanent+Marker&family=Reggae+One&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Single Player</title>
+  </head>
+  <body>
+    <header>
+      <div id="header-container" style="text-align: center; margin-top: 20px">
+        <h1 id="headerQuerstionNumber">Interview Ninja</h1>
+      </div>
+    </header>
+
+    <div
+      class="ninja-Image-container"
+      style="position: absolute; bottom: 8px; left: 8px"
+    >
+      <img
+        src="../CSS/ninja-3106460_1280.png"
+        alt="Ninja"
+        width:100
+        height="170"
+      />
+    </div>
+
+    <div id="background-container2" style="position: relative">
+      <img
+        src="../CSS/pagoda_Temple_Japan.png"
+        alt="BG"
+        width:100%
+        height="100%"
+        style="opacity: 0.5"
+      />
+
+      <div id="button-Container2" style="text-align: center">
+        <button id="Solution-button">Solution</button>
+      </div>
+    </div>
+    <!-- <div class="background-container">
+      <img
+      
+        src="../CSS/pagoda_Temple_Japan.png"
+        alt="Background"
+        style="size: cover;"
+      />
+    </div> -->
+
+    <!-- Cntrl + / = comment-->
+    <!-- div#blaBlaBla gives us a div with an ID -->
+    <div id="menuContainer">
+      <!-- This is Menu -->
+    </div>
+
+    <div id="topic-selection-container">
+      <form id="topic-form"></form>
+    </div>
+
+    <div id="game-container">
+      <div id="info-container">
+        <div id="question-id-container">
+          <p id="question-id">J123</p>
+        </div>
+        <span id="timer">12:34</span>
+      </div>
+      <span id="actual-question-solution"></span>
+
+      <div id="button-Container">
+        <button id="next-button" type="submit">Next</button>
+      </div>
+
+      <div id="question-container"></div>
+    </div>
+
+    <!-- data comes first -->
+    <script src="../data/questions.js"></script>
+
+    <!-- then the javascript code, we need data first because we will use it in the js script -->
+    <!-- all the .js files invoked that come before this .js file is invoked will be inherited into it -->
+    <script src="../js/singlePlayer.js"></script>
+  </body>
+</html>

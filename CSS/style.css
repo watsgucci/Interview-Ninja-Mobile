@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* img {
+  opacity: 0.1;
+} */
+div#header-container {
+  font-family: "Neucha", cursive;
+}
+/* img:hover {
+  opacity: 0.5;
+} */
+div#button-Container2 {
+  position: absolute;
+  top: 30%;
+  right: 50%;
+}
+
+div#button-Container {
+  position: absolute;
+  bottom: 17.3%;
+  right: 45%;
+}
+
+div#actual-question-solution {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+}
+/* 
+body {
+  background-image: url("../CSS/pagoda_Temple_Japan.png");
+  /* height: 100vh; 
+  background-size: 1000, 800;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  /* background-position: center;
+}*/
+
+div.background-container {
+  position: fixed;
+}
+
+div.ninja-Image-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
