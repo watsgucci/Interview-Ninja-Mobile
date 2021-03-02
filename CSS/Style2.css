@@ -49,14 +49,6 @@ li a:hover {
   transition: all 0.5s ease-in;
 }
 
-.ninja-Image-container img {
-  width: 80px;
-  height: auto;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-}
-
 body {
   background-image: linear-gradient(
       to left,
@@ -83,13 +75,15 @@ h1 {
 #bottom-row {
   text-align: center;
   list-style: none;
-  margin-top: 5vh;
+  margin-top: auto;
+  position: relative;
+  top: 150px;
 }
 #buttons li {
   display: inline-block;
   text-align: center;
   list-style: none;
-  margin-top: 40vh;
+  margin-top: auto;
   font-family: "Neucha", cursive;
   font-weight: bold;
 }
@@ -111,16 +105,17 @@ h1 {
   color: white;
   transition: all 0.5s ease-in;
 }
-/* hello */
-#game-container {
-  border: 2px dashed rgb(27, 80, 27);
+
+#question-solution-container {
+  border: 2px solid rgb(27, 80, 27);
   padding: 20px;
-  height: 30vh;
-  width: 80vw;
+  height: fit-content;
+  width: fit-content;
   text-align: center;
 
-  position: absolute;
-  margin: 100px, auto, auto;
+  margin: auto;
+  position: relative;
+  top: 100px;
 }
 
 #question-container,
@@ -128,4 +123,29 @@ h1 {
   margin-bottom: 50px;
   font-family: "Neucha", cursive;
   font-weight: bold;
+}
+
+.ninja-Image-container img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+
+  50% {
+    margin-left: 95%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
 }
