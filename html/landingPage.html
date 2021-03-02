@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../CSS/Style2.css" />
+    <link rel="stylesheet" href="../CSS/landingPage.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Long+Cang&family=Neucha&family=Permanent+Marker&family=Reggae+One&family=Satisfy&display=swap"
       rel="stylesheet"
@@ -17,52 +17,29 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-    <title>Single Player</title>
+    <title>Interview Ninja Home</title>
   </head>
   <body>
     <header>
       <div id="header-container">
-        <h1 id="header-title" class="animate__animated animate__hinge">
+        <h1
+          id="header-title"
+          class="animate__animated animate__lightSpeedInRight"
+        >
           Interview Ninja
         </h1>
       </div>
 
       <div class="row">
         <ul class="main-nav">
-          <li><a href="" class="active"> Home </a></li>
+          <li class="li-single-player"><a href=""> Single Player </a></li>
 
-          <li><a href=""> Game Styles </a></li>
-          <li><a href=""> Settings </a></li>
+          <li class="li-multi-player"><a href=""> Multi-Player </a></li>
+          <li class="li-settings"><a href=""> Settings </a></li>
         </ul>
       </div>
     </header>
 
-    <div id="game-container">
-      <div id="question-solution-container">
-        <div id="question-container">
-          <span id="actual-question"></span>
-        </div>
-
-        <div id="solution-container">
-          <span id="actual-solution"></span>
-        </div>
-
-        <div id="info-container">
-          <div id="question-id-container">
-            <p id="question-id">J123</p>
-          </div>
-          <div id="timer-container">
-            <span id="timer">12:34</span>
-          </div>
-        </div>
-      </div>
-
-      <div id="bottom-row">
-        <ul id="buttons">
-          <li><a href="" id="btn-one">Next</a></li>
-          <li><a href="" id="btn-two">Solution</a></li>
-        </ul>
-      </div>
 
       <!-- Ninja Picture -->
       <div class="ninja-Image-container">
@@ -75,6 +52,6 @@
 
     <!-- then the javascript code, we need data first because we will use it in the js script -->
     <!-- all the .js files invoked that come before this .js file is invoked will be inherited into it -->
-    <script src="../js/singlePlayer.js"></script>
+    <script src="../js/landingPage.js"></script>
   </body>
 </html>
